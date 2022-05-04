@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot');
+    src: url('Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rubik-Bold.woff2') format('woff2'),
+        url('Rubik-Bold.woff') format('woff'),
+        url('Rubik-Bold.ttf') format('truetype'),
+        url('Rubik-Bold.svg#Rubik-Bold') format('svg');
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik';
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+    padding-top: 2px;
+}
+
+a:hover {
+    background-color: #002265;
+    color: white;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+#one {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#one h2 {
+    font-size: xx-large;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#one p {
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: 'Rubik';
+}
+
+.intro {
+    width: 50%;
+    padding: 100px;
+    color: #002265;
+}
+
+@media (max-width:1200px) {
+    .intro {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.pc {
+    width: 50%;
+}
+
+@media (max-width:1200px) {
+    .pc {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#two {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#two h3 {
+    text-align: center;
+    font-family: 'Rubik';
+    color: #002265;
+    margin-bottom: 30px;
+    text-decoration: underline double 2px;
+}
+
+.passion {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.passion div {
+    width: 25%;
+    text-align: center;
+    border: 2px solid lightgray;
+    box-shadow: 4px 4px #002265;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.passion div h5{
+    color: #002265;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.passion div:hover{
+    background-color: rgb(209, 202, 202);
+}
+
+@media(max-width:1260px){
+    .passion div{
+        width: 35%;
+    }
+}
+
+@media(max-width:1060px){
+    .passion div{
+        width: 55%;
+    }
+}
+
+#three {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#three h2 {
+    text-align: center;
+    font-family: 'Rubik';
+    color: #002265;
+    margin-bottom: 30px;
+    text-decoration: underline double 2px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio div {
+    width: 25%;
+    text-align: center;
+    border: 2px solid lightgray;
+    box-shadow: 4px 4px #002265;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.portfolio div h3{
+    color: #002265;
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.portfolio div:hover{
+    background-color: rgb(209, 202, 202);
+}
+
+@media(max-width:1260px){
+    .portfolio div{
+        width: 35%;
+    }
+}
+
+@media(max-width:1060px){
+    .portfolio div{
+        width: 55%;
+    }
+}
+
+footer{
+width: 100%;
+background-color: rgb(209, 202, 202);
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.icon div{
+    width: 20%;
+    text-align: center;
+}
+
+@media(max-width:1200px){
+    .icon div{
+        width: 35%;
+    }
+}
+
+@media(max-width:1000px){
+    .icon div{
+        width: 55%;
+    }
+}
